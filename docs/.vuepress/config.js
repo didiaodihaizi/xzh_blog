@@ -1,7 +1,7 @@
 module.exports = {
   base: '/blog-demo/',
-  title: 'blog-demo',
-  description: 'Vuepress blog demo',
+  title: '低调di孩子博客',
+  description: '弄个博客玩玩',
   head: [
     ['link', { rel: 'icon', href: '/vue-logo.png' }]
   ],
@@ -11,12 +11,10 @@ module.exports = {
     // 自定义仓库链接文字。
     repoLabel: 'My GitHub',
   	nav: [
-  		{ text: 'Home', link: '/' },
-  		{ text: 'FirstBlog', link: '/blog/FirstBlog.md' }
   	],
   	sidebar: [
-      ['/', '首页'],
-      ['/blog/FirstBlog.md', '我的第一篇博客']
+      ['/blog/FirstBlog.md', 'vue预渲染实战踩坑'],
+      ['/blog/ValueOf.md', 'new Date(aTIme) - new Date(bTime)引发的思考']
     ]
   }
 }
