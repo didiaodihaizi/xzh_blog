@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/blog-demo/',
+  base: '/xzh_blog/',
   title: '低调di孩子博客',
   description: '弄个博客玩玩',
   head: [
@@ -7,7 +7,7 @@ module.exports = {
   ],
   themeConfig: {
   	// 你的GitHub仓库
-    repo: 'https://github.com/olewaHHH/blog-demo',
+    repo: 'https://github.com/didiaodihaizi/xzh_blog',
     // 自定义仓库链接文字。
     repoLabel: 'My GitHub',
   	nav: [
